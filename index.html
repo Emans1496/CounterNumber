@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href="assets/img/counterlogo.png" type="image/x-icon">
     <!-- for Bootstrap-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Bootstrap Bundle with Popper -->
@@ -36,15 +36,15 @@
                 <div class="row justify-content-center align-items-center g-2">
                     <div class="col-12 text-center">
                         <p id="counterName" class="counterNameCss">Counter</p>
-                        <div class="col-12 text-center d-flex justify-content-center align-items-center">
-                        <p id="display" class="display">0</p>
+                        <div class="col-12 text-center d-flex justify-content-center align-items-center" id="divDisplay">
+                        <!--<p id="display" class="display">0</p>-->
                         </div>
                         <div class="row">
-                            <div class="col-6 pb-2">
-                                <button id="add" class="Add">+</button>
+                            <div class="col-6 pb-2" id="sommatore">
+                               <!--<button id="add" class="Add">+</button>--> 
                             </div>
-                            <div class="col-6 pb-2">
-                                <button id="dec" class="Dec">-</button>
+                            <div class="col-6 pb-2" id="sottrattore">
+                               <!--<button id="dec" class="Dec">-</button>--> 
                             </div>
                             <div class="row">
                                 <div class="col-6 pb-2">

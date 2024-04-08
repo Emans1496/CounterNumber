@@ -5,6 +5,9 @@
     font-family: "Oxanium", "arial";
 }
 
+body{
+    background-color: #2D82B7;
+}
 
 .oxanium {
     font-family: "Oxanium", sans-serif;
@@ -31,6 +34,9 @@ section{
     color: black;
     width: 30%;
     padding: 10px;
+    margin-bottom: 2%;
+    margin-left: 10%;
+
 }
 
 .Dec {
@@ -42,6 +48,8 @@ section{
     color: black;
     width: 30%;
     padding: 10px;
+    margin-left: 18%;
+    margin-bottom: 2%;
 }
 
 .nameButton {
